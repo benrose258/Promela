@@ -1,0 +1,28 @@
+jSpin output from zoo2.pml:
+
+(Spin Version 6.5.1 -- 31 July 2020)
+	+ Partial Order Reduction
+Full statespace search for:
+	never claim         	- (none specified)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+State-vector 60 byte, depth reached 102, ••• errors: 0 •••
+    57990 states, stored
+    75649 states, matched
+   133639 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:       258 (resolved)
+Stats on memory usage (in Megabytes):
+    4.867	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.918	actual memory usage for states (compression: 59.96%)
+         	state-vector as stored = 25 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.107	memory used for DFS stack (-m2000)
+  130.939	total actual memory usage
+unreached in proctype Mouse
+	(0 of 45 states)
+unreached in proctype Feline
+	(0 of 45 states)
+pan: elapsed time 0.069 seconds
+pan: rate 840434.78 states/second
